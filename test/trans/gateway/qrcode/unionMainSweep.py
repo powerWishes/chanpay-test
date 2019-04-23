@@ -80,7 +80,7 @@ class UnionMainSweepTest(unittest.TestCase):
         return self.test_data
 
     # 获取数据库内容
-    def get_db_result(self, delay_second):
+    def get_db_result(self, delay_second=0):
         self.conn = DBUtil.get_connection(DBName.CHANJET_PAY_CHANNEL, DBENV.STABLE)
         self.cur = self.conn.cursor()
         for key, value in self.test_data.items():
