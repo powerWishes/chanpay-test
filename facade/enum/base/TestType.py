@@ -1,0 +1,9 @@
+COMMUNICATION_TEST = 1  # 1. 接口连通性测试（接口通讯为200）
+PARAMETER_TEST = 2  # 2. 接口参数校验测试（接口返回失败，数据库无数据）
+RIGHT_TEST = 3  # 3. 接口正确性校验（接口返回正确，数据库数据正确）
+CALLBACK_TEST = 4  # 4. 回调测试
+CUSTOM_TEST_FIRST = 5  # 5. 定制化测试1，使用时需在文档加相应备注
+CUSTOM_TEST_SECOND = 6  # 6. 定制化测试2，使用时需在文档加相应备注
+CUSTOM_TEST_THIRD = 7  # 7. 定制化测试3，使用时需在文档加相应备注
+CUSTOM_TEST_FOURTH = 8  # 8. 定制化测试4，使用时需在文档加相应备注
+CUSTOM_TEST_FIFTH = 9  # 9. 定制化测试5，使用时需在文档加相应备注
